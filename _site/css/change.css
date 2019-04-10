@@ -1,0 +1,386 @@
+.topnav ul li .active{
+    color: #e02525
+}
+
+.topnav ul li a{
+    transition: all .3s ease-in-out;
+}
+
+.topnav ul li a:hover{
+    color: #e02525
+}
+
+.topnav ul li .dropdown-inner a:hover{
+    background-color: #e02525;
+    color: #FFF !important
+}
+
+.category .back .color:hover{
+    background-color: #e02525;
+    color: #fff
+}
+
+footer .social li{
+    transition: all .6s ease-in-out
+}
+
+footer .social li:hover{
+    transform: rotate(360deg);
+}
+
+footer .social li:hover i{
+    color: #fff
+}
+
+footer .info .links li a:hover{
+    color:#e02525;
+    text-decoration: underline;
+}
+
+.dashboard .inner-search .box h4 i{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px
+}
+
+.dashboard .inner-search .box .image{
+    padding: 0
+}    
+
+.dashboard .inner-search .box .image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px
+} 
+
+.inner-message .nav li{
+    padding: 12px 5px !important;
+}
+
+.inner-message .nav .active-user{
+    background-color: #FFF;
+    width: 100%;
+}
+
+.commontop .form-group select {
+    height: 39px;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #B2B2B2;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 13px;
+    width:100%;
+    outline: none;
+}
+
+.commontop .similar-ads-heading{
+    background-color: #e02525;
+    color: #FFF;
+    padding: 7px;
+    margin-bottom: 0
+}
+.commontop .more-ads{
+    background-color: #f5f5f5;
+    padding: 7px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    height: auto;
+    text-align: center;
+    height: 420px
+}
+
+.commontop .more-ads img{
+    height: 150px;
+    width: 100%
+}
+
+.commontop .more-ads h5{
+    margin-bottom: 30px
+}
+
+@media (max-width: 1199px){
+    .commontop .more-ads{
+    height: 310px
+}
+}
+
+@media (max-width: 991px){
+    .commontop .more-ads{
+    height: auto
+    }
+}
+
+.commontop .more-ads .iner-add{
+    padding-right: 10px;
+    padding-left: 7px;
+}
+
+.commontop .comment-holder{
+    background-color: #F5f5f5;
+    padding: 10px;
+}
+
+.commontop form textarea{
+    height: 130px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 15px
+}
+
+.commontop form button{
+    background: #313E46;
+    border-radius: 40px;
+    border: 1px solid #313E46;
+    color: #fff;
+    padding: 10px 31px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 50px
+}
+
+.commontop form button:hover{
+    background: #313E46;
+}
+
+.commontop .commenter img{
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.commontop .commenter .the-comment{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative
+}
+
+.commontop .commenter .the-comment:before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-width: 15px 15px 7px 12px;
+    border-style: solid;
+    border-color: transparent transparent transparent #CCC;
+    top: -15px;
+    left: 19px;
+}
+
+.commontop .commenter .the-comment p{
+    color: #000;
+    line-height: 22px;
+}
+
+.commontop .rightside .safety i{
+    font-size: 20px;
+    color:#FFF;
+    background-color:#00f;
+    margin:0 5px;
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    text-align:center;
+    line-height:40px; 
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.commontop .rightside .safety i[class="twitter hvr-grow fa fa-twitter"]{
+    background-color:lightskyblue;
+}
+
+.commontop .rightside .safety i[class="google hvr-grow fa fa-google-plus"]{
+    background-color:#db4437;
+}
+
+.commontop .rightside .safety i[class="instagram hvr-grow fa fa-instagram"]{
+    background-color:#c32aa3;
+}
+
+.message h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top:-90px;
+}
+
+.message h2 span{
+    color:#e02525
+}
+
+.message p{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.commontop .ltest h2 a{
+    color: grey
+}
+
+.commontop .ltest h2 a:hover{
+    color: grey
+}
+
+.commontop .ltest img{
+    margin-bottom: 10px
+}
+
+.commontop .ltest p{
+    margin-bottom: 20px
+}
+
+.commontop .new-icons li a{
+    color: grey;
+    display: block
+}
+
+.commontop .new-icons li.active a,
+.commontop .new-icons li.active p{
+    background-color: #e02525;
+    color: #FFF
+}
+
+.commontop .new-icons li:hover a,
+.commontop .new-icons li:hover p{
+    background-color: #e02525;
+    color: #FFF
+}
+
+footer .social li a{
+    display: block
+}
+
+.inner-setting .form-group input[type="text"]{
+    height: 39px;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #B2B2B2;
+    font-size: 13px;
+}
+
+.inner-setting .form-group .pretty{
+    display: block;
+    margin: 20px 0
+}
+
+.inner-setting form button{
+    background: #313E47;
+    color: #fff;
+    width: 50%;
+    height: 44px;
+    border-radius: 40px;
+    margin: 32px auto;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -o-transition: all.5s ease-in-out;
+    transition: all.5s ease-in-out;
+}
+
+.inner-setting form button:hover{
+    background-color: #e02525;
+    color: #FFF
+}
+
+/******** loading animate **********/
+.sk-folding-cube {
+  margin: 40px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e02525;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+/********* loading animate end *************/
+
+
+
+

@@ -1,0 +1,80 @@
+@import font-awesome
+    
+body
+    overflow-x: hidden
+    
+.back-img-error
+    height: 0px !important
+    
+.container
+    width: 1200px
+    margin: 0 auto
+    
+.text-center
+    text-align: center
+
+.error-503
+    padding: 30px 10px 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 70vh
+    h1
+        font-size: 50px
+        font-family: 'Nosifer', cursive
+        color: #e02525
+        
+    h2
+        font-size: 35px
+        color: #444
+        text-transform: uppercase
+    p
+        font-size: 28px
+        width: 100%
+        line-height: 1.5
+        text-transform: capitalize
+        text-align: center
+        margin-bottom: 10px
+
+        
+a  
+    i
+        display: inline-block
+        width: 30px
+        height: 30px
+        text-align: center
+        line-height: 30px !important
+        background-color: blue
+        color: #FFF
+        margin-right: 5px
+        font-size: 16px
+        border-radius: 4px
+        margin-top: 10px
+        position: relative
+        left: 45%
+        @media(max-width: 850px)
+            top: 40px
+        @media(max-width: 576px)
+            top: -20px
+            left: 38%
+    i[class="fa fa-twitter"]
+        background-color: lightskyblue
+    i[class="fa fa-instagram"]
+        background-color: deeppink
+    
+            
+@media (max-width: 576px)
+    .error-503
+        h1
+            font-size: 28px
+        img
+            width: 90%
+        h2
+            font-size: 20px
+        p
+            width: 100%
+            font-size: 18px
+            
+            
+    
